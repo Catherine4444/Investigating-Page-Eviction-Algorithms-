@@ -1,8 +1,8 @@
+// Writte by Catherine Li 
 import java.util.Scanner;
 import java.util.LinkedList;
+
 public class Replacement {
-
-
     private static int firstInFirstOut(final Memory frames, final Integer[] pageReferences) {
         int pageFaults = 0;
         /**
@@ -200,3 +200,4 @@ public class Replacement {
         return result;
     }
 }
+
