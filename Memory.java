@@ -6,6 +6,8 @@ import java.util.List;
  * Frames in the Memory object are numbered/indexed from 0. Rather than contain an actual page of bytes, a frame may contain a page number.
  * 
  * Frame numbers and page numbers are abstractions of memory addresses.
+ *
+ * Provided by the University of Cape Town
  */
 
 public class Memory  {
@@ -131,3 +133,4 @@ public class Memory  {
 
 
 }
+
